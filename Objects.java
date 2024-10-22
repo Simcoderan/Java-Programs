@@ -26,8 +26,8 @@ public class Objects
     
     public static void main(String[] args) 
     {
-        int num1=4;    //---primitive variable
-        int num2=6;
+        int num1 =4;    //---primitive variable
+        int num2 =6;
         // add(); -----simply calling class doesnt makes sense becz class is only design we need object also manufacture
         Calculator calc = new Calculator();     // new device of type calculator                //--calc is refference variable
 
