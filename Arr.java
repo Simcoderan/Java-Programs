@@ -61,3 +61,7 @@ public class Arr {
      //}
      //sout ();
 //}
+
+
+//Jagged Array
+//int nums[][]=new int[3][]; //isnt mentioned the second one-unsured no.of columns unknown
