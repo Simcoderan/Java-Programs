@@ -48,17 +48,15 @@ public class Arrayofobject {
         
 
     }
+            } 
+
+    }
+
+//--ENHANCED FOR LOOP---//
+ //for(Student stud : students)  //it will fetch one student at a time
+ //{
+   // System.out.println(stud.name +":" + stud.marks);
+ //}
 
 
 
-
-
-
-
-    
-    
-   } 
-
-    
-    
-}
