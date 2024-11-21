@@ -15,6 +15,7 @@ public class Demostr{
         System.out.println(name.charAt(1));  //to find the location of any character at  any index
         System.out.println(name.concat("riya")); //concat 2 names also
 
+        
     }
 
 }
