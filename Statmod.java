@@ -16,5 +16,10 @@ public class Statmod {
 
 //for this we have special class
      //Class.forName(className:"Mobile");     forName is a method -and this whole is to load the class   
+
+
+     //we can call static method directly  with class name
+     //you can use static variable in static method
+     //we can do indiectly by passing obj by obj refference
     
 }
