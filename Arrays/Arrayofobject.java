@@ -48,39 +48,43 @@ public class Arrayofobject {
     }
 }
 
-// 🚀 **Conceptual Notes** for Placement/Interview Preparation:
+// 🚀 Conceptual Notes for Placement/Interview Preparation:
 
-// **1. Arrays of Objects**:
-// - An array of objects stores references to the objects, not the objects themselves. 📦
-// - The array holds **references** to objects of the `Student` class, and each index points to an object in memory. 🔗
-// - You need to create the objects first before storing them in the array, unlike primitive types. 🛠️
-// - Example use cases: Storing a list of students, employees, or any object in a collection. 🎓👩‍💻
+// 1. Arrays of Objects:
+// - An array of objects stores references to the objects, not the objects themselves. 
+// - The array holds **references** to objects of the `Student` class, and each index points to an object in memory. 
+// - You need to create the objects first before storing them in the array, unlike primitive types. 
+// - Example use cases: Storing a list of students, employees, or any object in a collection. 
 // - **Time Complexity**: Accessing elements is **O(1)**, iterating over the array is **O(n)** where n is the number of elements.
 
 
-// **2. Enhanced For Loop** (also known as "For-each loop") 🔄:
+// 2. Enhanced For Loop (also known as "For-each loop") 🔄:
 // - Simplifies iteration over arrays and collections.
 // - Automatically loops through each element without needing an index.
 // - **Syntax**: `for (Type var : array) { // actions }`.
 // - Useful for cases where you don’t need the index, just the element itself.
 
 
-// **Key Concepts to Keep in Mind for Placement** 🧠:
-// - **Memory Management**: The array stores **references** to objects, not the actual objects themselves, so memory management is crucial. 💾
-// - **Object-Oriented**: Arrays of objects are one of the core concepts when handling real-world entities in OOP (Object-Oriented Programming). 🎯
-// - **Flexibility**: Arrays of objects provide flexibility to store a large collection of items of the same type. 🌱
+// Key Concepts to Keep in Mind for Placement 🧠:
+// - **Memory Management**: The array stores **references** to objects, not the actual objects themselves, so memory management is crucial. 
+// - **Object-Oriented**: Arrays of objects are one of the core concepts when handling real-world entities in OOP (Object-Oriented Programming). 
+// - **Flexibility**: Arrays of objects provide flexibility to store a large collection of items of the same type. 
 
-// **Interview Questions You May Encounter**:
-// 1. **Create an array of objects and print their details.**
-// 2. **Find the average marks of all students in the array.** 🎓
-// 3. **Create a method that accepts an array of Student objects and returns the student with the highest marks.** 🏆
-// 4. **Sort an array of Student objects based on marks using Arrays.sort().** 🔢
-// 5. **Create a constructor in the Student class to initialize fields instead of manually assigning values.** 🔨
 
-// **Important Points** for Placement/Interview:
-// - **Object Instantiation**: Objects are instantiated using the `new` keyword, and their references are stored in the array. 🧰
-// - **Arrays and Objects**: An array of objects is a collection of references, making it flexible for storing various real-world data entities. ⚙️
-// - **Constructor vs Manual Assignment**: Instead of manually assigning values, constructors can be used for more efficient object initialization. 🛠️
-// - **Null Check**: Always ensure objects in arrays are initialized before using them to avoid `NullPointerException`. ⚠️
-// - **Garbage Collection**: Once objects go out of scope or references are set to null, they can be garbage collected. 🧹
-// - **Sorting Objects**: You may need to implement `Comparable` or use `Comparator` to sort arrays of objects based on some property, like marks or names. 🔄
+
+// Interview Questions You May Encounter 🧰:
+// 1. Create an array of objects and print their details.
+// 2. Find the average marks of all students in the array.
+// 3. Create a method that accepts an array of Student objects and returns the student with the highest marks.
+// 4. Sort an array of Student objects based on marks using Arrays.sort().
+// 5. Create a constructor in the Student class to initialize fields instead of manually assigning values.
+
+
+
+//   Important Points for Placement/Interview ⚠️:
+// - **Object Instantiation**: Objects are instantiated using the `new` keyword, and their references are stored in the array. 
+// - **Arrays and Objects**: An array of objects is a collection of references, making it flexible for storing various real-world data entities. 
+// - **Constructor vs Manual Assignment**: Instead of manually assigning values, constructors can be used for more efficient object initialization. 
+// - **Null Check**: Always ensure objects in arrays are initialized before using them to avoid `NullPointerException`. 
+// - **Garbage Collection**: Once objects go out of scope or references are set to null, they can be garbage collected. 
+// - **Sorting Objects**: You may need to implement `Comparable` or use `Comparator` to sort arrays of objects based on some property, like marks or names. 
