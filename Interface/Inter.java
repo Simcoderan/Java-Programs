@@ -1,3 +1,4 @@
+
 // 🔑 Interface in Java
 // An interface defines a contract for classes to implement. It contains abstract methods and static final variables.
 
