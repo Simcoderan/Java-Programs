@@ -4,7 +4,9 @@ public class Arr
 
     public static void main(String[] args) {
 
-        // 1. Single-dimensional array
+
+
+ // 1. Single-dimensional array
         // An array is a collection of elements, all of the same type, stored in contiguous memory locations.
         // In Java, arrays are objects, so they are stored in the heap memory.
         
@@ -33,8 +35,7 @@ public class Arr
 
 
 
-
-        // 2. Multidimensional array (2D array)
+ // 2. Multidimensional array (2D array)
         // Multidimensional arrays are essentially arrays of arrays. The elements can be accessed using multiple indices.
         
 
@@ -58,8 +59,7 @@ public class Arr
 
 
 
-
-        // 3. Jagged array (Array of arrays with different column sizes)
+// 3. Jagged array (Array of arrays with different column sizes)
         // A jagged array is an array of arrays where each sub-array can have a different length (unlike a 2D array).
         
 
@@ -103,57 +103,65 @@ public class Arr
 
 // 🚀 Conceptual Notes for Placement/Interview Preparation
 
-// 1. Single-dimensional Arrays:
-//    - Definition: Collections of fixed-size, same-type elements stored in contiguous memory locations. 🧳
-//    - Key Operations:
-//        - Access: Direct access to elements using an index (`O(1)` time complexity). 🎯
-//        - Modification: Elements can be modified after initialization. ✏️
-//    - Drawbacks:
-//        - Fixed size (resizing requires creating a new array). 🚫
-//        - Memory is allocated based on the initial size. 🧠
+
+
+/*  1. Single-dimensional Arrays🎯:
+   - Definition: Collections of fixed-size, same-type elements stored in contiguous memory locations. 
+   - Key Operations:
+       - Access: Direct access to elements using an index (`O(1)` time complexity). 
+       - Modification: Elements can be modified after initialization. 
+  - Drawbacks:
+      - Fixed size (resizing requires creating a new array). 
+      - Memory is allocated based on the initial size. 
+*/
+
+
 
 /*
-  2. Multidimensional Arrays (2D):
-     - Definition: Arrays of arrays, used to represent matrices or tables. 📊
-     - Access: Elements accessed using two or more indices (e.g., row and column). 🔢
-     - Example: Used in matrix operations, dynamic programming, etc. 🧮
+  2. Multidimensional Arrays (2D)🎯:
+     - Definition: Arrays of arrays, used to represent matrices or tables. 
+     - Access: Elements accessed using two or more indices (e.g., row and column). 
+     - Example: Used in matrix operations, dynamic programming, etc. 
      - Time Complexity:
-        - Access: O(1) for element access. ⏱️
-        - Iteration: O(n*m) where n is the number of rows and m is the number of columns. 🔁
+        - Access: O(1) for element access. 
+        - Iteration: O(n*m) where n is the number of rows and m is the number of columns. 
 */
 
-// 3. Jagged Arrays:
-//    - Definition: Arrays of arrays where sub-arrays (rows) can have different lengths. 🪶
-//    - Use Case: Useful when data in each row varies in size, e.g., records with different lengths. 📅
-//    - Time Complexity: Similar to 2D arrays but more flexible, as each row can have a different number of columns. 🔄
+/* 
 
+  3. Jagged Arrays 🎯:
+     - Definition: Arrays of arrays where sub-arrays (rows) can have different lengths. 
+     - Use Case: Useful when data in each row varies in size, e.g., records with different lengths. 
+     - Time Complexity: Similar to 2D arrays but more flexible, as each row can have a different number of columns. 
+*/
+ 
 
 
 /*
 
-  Key Points for Placement/Interview:
-
-  - Fundamental Data Structure: Arrays are a crucial data structure in Java and frequently asked in technical interviews. 📚
-  - Time and Space Complexity: Always optimize for both when working with arrays. ⏳💾
-  - Jagged Arrays and 2D Arrays: Key for solving matrix problems and in dynamic programming questions. 🧩
+  Key Points for Placement/Interview⏱️:
+  - Fundamental Data Structure: Arrays are a crucial data structure in Java and frequently asked in technical interviews. 
+  - Time and Space Complexity: Always optimize for both when working with arrays. 
+  - Jagged Arrays and 2D Arrays: Key for solving matrix problems and in dynamic programming questions. 
 */
 
 
+/*Common Interview Questions🧩:
+1. Write a program to find the sum of a 2D matrix. 
+2. Implement a jagged array and perform operations like searching or sorting. 
+ 3. Given a 2D matrix, find the largest sum of any row or column. 
+ 4. Implement a method to transpose a matrix.
 
-// Common Interview Questions:
+ */
+ 
 
-// 1. Write a program to find the sum of a 2D matrix. ➕
-// 2. Implement a jagged array and perform operations like searching or sorting. 🔍🔢
-// 3. Given a 2D matrix, find the largest sum of any row or column. 📏💡
-// 4. Implement a method to transpose a matrix. 🔄📐
 
 /*
 
-  Important Points About Arrays in Java:
-
+  Important Points About Arrays in Java🧩:
   - Memory:
-      - Arrays are objects stored in **heap memory**. 🏔️
-      - The reference to the array is stored in **stack memory**. 🗂️
-  - Initialization: Arrays in Java are automatically initialized with default values (e.g., `0` for integers, `null` for object types). 🔢
-  - Flexibility: Jagged arrays provide flexibility when working with irregularly sized data. 🎯
+      - Arrays are objects stored in **heap memory**. 
+      - The reference to the array is stored in **stack memory**. 
+  - Initialization: Arrays in Java are automatically initialized with default values (e.g., `0` for integers, `null` for object types). 
+  - Flexibility: Jagged arrays provide flexibility when working with irregularly sized data. 
 */
